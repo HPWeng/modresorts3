@@ -39,10 +39,10 @@
     <servlet-name>DB2ConnectionCheckerServlet</servlet-name>
     <servlet-class>com.acme.modres.DB2ConnectionCheckerServlet</servlet-class>
   </servlet> -->
-  <servlet>
+<!--    <servlet>
     <servlet-name>ModResortsStaffServlet</servlet-name>
     <servlet-class>com.acme.modres.ModResortsStaffServlet</servlet-class>
-  </servlet>
+  </servlet> -->
   <servlet>
     <servlet-name>MySendingPOServlet</servlet-name>
     <servlet-class>com.acme.modres.MyPOSendingServlet</servlet-class>
@@ -55,10 +55,10 @@
     <servlet-name>JmsConnectionCheckerServlet</servlet-name>
     <servlet-class>com.acme.modres.JmsConnectionCheckerServlet</servlet-class>
   </servlet>
-  <servlet-mapping>
+<!--  <servlet-mapping>
     <servlet-name>ModResortsStaffServlet</servlet-name>
     <url-pattern>/staff</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> -->
   <servlet-mapping>
     <servlet-name>JmsConnectionCheckerServlet</servlet-name>
     <url-pattern>/chat/connect</url-pattern>
@@ -144,5 +144,4 @@
 <security-role>
     <role-name>users</role-name>
 </security-role>
-
 </web-app>
